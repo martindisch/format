@@ -7,7 +7,8 @@ fn main() -> Result<()> {
         .version("0.1.0")
         .about(
             "A small tool for formatting bytes in various input formats as \
-             arrays or CoAP messages.",
+             arrays or CoAP\n\
+             messages.",
         )
         .author("Martin Disch")
         .arg(
