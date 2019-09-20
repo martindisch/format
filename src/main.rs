@@ -3,14 +3,14 @@ use clap::{App, Arg};
 use format::Result;
 
 fn main() -> Result<()> {
-    let matches = App::new("format")
-        .version("0.1.0")
+    let matches = App::new(clap::crate_name!())
+        .version(clap::crate_version!())
         .about(
             "A small tool for formatting bytes in various input formats as \
              arrays or CoAP\n\
              messages.",
         )
-        .author("Martin Disch")
+        .author(clap::crate_authors!())
         .arg(
             Arg::with_name("coap")
                 .short("c")

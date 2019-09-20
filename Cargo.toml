@@ -1,6 +1,5 @@
 [package]
 name = "format"
-# Remember to update version for clap (main.rs)
 version = "0.1.0"
 authors = ["Martin Disch <martindisch@gmail.com>"]
 edition = "2018"
